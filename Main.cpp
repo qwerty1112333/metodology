@@ -2,6 +2,7 @@
 
 #include "games/GeometryProgression.h"
 #include "games/LcmGame.h"
+#include "Engine.cpp"
 
 void displayMenu() {
     std::cout << "Select a game to play:\n";
@@ -13,22 +14,7 @@ void displayMenu() {
 int main() {
     int choice;
     displayMenu();
-
     std::cin >> choice;
-
-    switch (choice) {
-        case 1:
-            StartGeometryGame();
-            break;
-        case 2:
-            StartLcmGame();
-            break;
-        case 0:
-            std::cout << "Exiting program.\n";
-            return 0;
-        default:
-            std::cout << "Invalid choice. Please select again.\n";
-            break;
-    }
+    Engine(int choice);
     return 0;
 }
