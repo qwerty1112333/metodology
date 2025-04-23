@@ -1,3 +1,5 @@
+# Code climate
+##### 1) [Geometry Progression Gam](https://codeclimate.com/github/qwerty1112333/metodology)
 # Games overview
 ##### 1) Geometry Progression Game
 [![asciicast](https://asciinema.org/a/ZZ1YRhv78Zw5lKYK4kbVYAa13.svg)](https://asciinema.org/a/ZZ1YRhv78Zw5lKYK4kbVYAa13)
